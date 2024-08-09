@@ -1,0 +1,48 @@
+    1  history -w
+    2  history -w
+    3  logout
+    4  history
+    5  cd 236602435-BAUTISTA
+    6  mkdir linux_practice
+    7  ls
+    8  cd linux_practice
+    9  touch notes.txt
+   10  ls
+   11  ls >> notes.txt
+   12  cat notes.txt
+   13  echo "Hello,Linux!" >> notes.txt
+   14  cat notes
+   15  cat notes.txt
+   16  echo "This is a practical exam." >>notes.txt
+   17  head -n 1 notes.txt
+   18  tail -n 1 notes.txt
+   19  mkdir subdir
+   20  mv notes.txt subdir
+   21  ls
+   22  mv practice_subdir
+   23  cd practice_subdir
+   24  mv practice_subdir
+   25  mv subdir practice_subdir
+   26  cd practice_subdir
+   27  ls
+   28  mv notes.txt linux_practice
+   29  ls
+   30  cd ..
+   31  ls
+   32  cd
+   33  time date
+   34  times
+   35  df -t home
+   36  python --version
+   37  pkg install python
+   38  python --version
+   39  php --version
+   40  pkg install php
+   41  php --version
+   42  git --version
+   43  gh --version
+   44  history
+   45  logout
+   46  cd 236602435-BAUTISTA
+   47  git checkout -b finalexam
+   48  history > exam_log.txt
